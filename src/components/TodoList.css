@@ -1,0 +1,33 @@
+.todo-list {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.form {
+  margin-top: 16px;
+}
+
+.input {
+  margin-right: 8px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}

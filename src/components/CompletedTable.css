@@ -1,0 +1,40 @@
+.completed-table {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th:first-child {
+  text-align: left;
+}
+
+th:last-child {
+  text-align: left;
+}
+
+.row {
+  border-bottom: 1px solid #ccc;
+}
+
+.cell {
+  padding: 10px;
+  text-align: left;
+}
+
+th:last-child,
+td:last-child {
+  padding-left: 20px;
+}
